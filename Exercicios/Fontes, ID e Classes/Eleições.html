@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eleições 2022</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Kanit:ital,wght@1,300&display=swap');
+    
+        body{
+            background: linear-gradient(to right, rgb(158, 248, 84), rgb(252, 248, 46), rgb(120, 252, 68) );
+        }
+        .principal {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        h1 {
+            font-family: 'Cormorant+SC', ;
+            text-align: center;
+            padding: auto;
+            font-size: 40px;
+        }
+        .caixa {
+            background-color: rgb(201, 201, 201);
+            width: 350px;
+            padding: 20px;
+            margin-top: 30px;
+            border-radius: 30px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.39);
+        }
+        img{
+            border-radius: 30px;
+        }
+        h2 {
+            font-family: Cormorant+SC;
+            text-align: center;
+        }
+        p {
+            font-family: Kanit;
+            text-align: justify;
+            font-weight: 550;
+        }
+        .vote {
+            display: none;
+        }
+        div:hover > .vote {
+            display: block;
+            color: aliceblue;
+            background-color: rgb(37, 150, 65);
+        }
+        .h2bolso:hover {
+            color: green;
+        }
+        .h2lula:hover {
+            color: red;
+        }
+        .h2moro:hover {
+            color: yellow;
+        }
+        .botao {
+            background-color: rgb(255, 255, 255);
+            width: 100px;
+            height: 50px;
+            padding: 10px;
+            border-radius: 10px;
+            font-family: Cormorant+SC;
+        }
+        .divbotao {
+            width: 100px;
+            margin: center;
+            margin-top: 15px;
+        }
+        .btbolso:hover {
+        background-color: green;
+        font-weight: 700;
+        }
+        .btlula:hover {
+        background-color: red;
+        font-weight: 700;
+        }
+        .btmoro:hover {
+            background-color: yellow;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+<h1><img src="https://img.freepik.com/vetores-premium/bandeira-do-brasil-pincelada-bandeira-nacional-da-republica-federativa-do-brasil-ilustracao-vetorial_132915-63.jpg?w=2000" alt="brasil" width="100px"> Candidatos favoritos a presidencia do Brasil em 2022 <img src="https://img.freepik.com/vetores-premium/bandeira-do-brasil-pincelada-bandeira-nacional-da-republica-federativa-do-brasil-ilustracao-vetorial_132915-63.jpg?w=2000" alt="brasil" width="100px">
+</h1>
+<div>
+    <p Class = "Atenção">ATENÇÃO!!</p>
+    <p Class = "vote"> Analise com cuidado, afinal o futuro do Brasil esta em suas mãos.</p>
+</div>
+<main class = principal> 
+    <div class="caixa bolsonaro">
+        <h2 class="h2bolso">
+            Jair Bolsonaro (PL)
+        </h2>
+        <p>Jair Messias Bolsonaro (Glicério,21 de março de 1955) é um militar reformado e político brasileiro, filiado ao Partido Liberal (PL). É o 38º presidente do Brasil desde 1º de janeiro de 2019, tendo sido eleito pelo Partido Social Liberal (PSL). Foi deputado federal pelo Rio de Janeiro entre 1991 e 2018.</p>
+        <img src="https://s3.netcampos.com/imgs/20220510225609/bolsonaro-campos-do-jordao.jpg" alt="Bolsonaro" width="350px" height="310px">
+    <div class = "divbotao">
+        <button class = "botao btbolso">
+            Votar Bolsonaro
+        </button>
+    </div>
+    </div>
+
+    <div class="caixa lula">
+        <h2 class="h2lula">
+            Lula (PT)
+        </h2>
+        <p>Luiz Inácio Lula da Silva (nascido Luiz Inácio da Silva; Garanhuns, 27 de outubro de 1945), mais conhecido como Lula, é um ex-sindicalista, ex-metalúrgico e político brasileiro, filiado ao Partido dos Trabalhadores (PT), do qual é o principal fundador. Foi o 35.º presidente do Brasil entre 1 de janeiro de 2003 e 1 de janeiro de 2011.</p>
+        <img src="https://static.poder360.com.br/2022/07/Lula-8.out_.2021-1.jpg" alt="lula" width="350px">
+        <div class = "divbotao">
+            <button class = "botao btlula">
+            Votar Lula
+            </button>
+        </div>
+    </div>
+
+    <div class="caixa moro">
+        <h2 class="h2moro">
+            Sergio Moro (União) 
+        </h2>
+        <p>Sergio Fernando Moro (Maringá, 1 de agosto de 1972) é um jurista, ex-magistrado, ex-professor universitário e político brasileiro, filiado ao União Brasil (UNIÃO). Foi juiz federal, professor da Universidade Federal do Paraná (UFPR) e ministro da Justiça e Segurança Pública do governo Jair Bolsonaro.</p>
+        <img src="https://static.poder360.com.br/2022/07/SergioMoro-10.nov_.2022.jpg" alt="Moro" width="350px">
+        <div class = "divbotao">
+            <button class = "botao btmoro">
+            Votar Moro
+        </button>
+    </div>
+    </div>
+</main>
+</body>
+</html>
